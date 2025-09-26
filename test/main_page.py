@@ -4,8 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from env_config import TIMEOUT, BASE_URL2, API_KEY, HEADERS, BASE_URL4,API_BASE_URL,API_PERSONS_ENDPOINT,BASE_URL3
 import allure
 import requests
-import testdata
-
 
 class MainPage:
     def __init__(self, driver):
